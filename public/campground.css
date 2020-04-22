@@ -1,0 +1,95 @@
+body {
+	background: #fab696; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#fbe3b9,
+		#fab696
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#fbe3b9,
+		#fab696
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Roboto Slab', serif;
+}
+
+h1,h4 {
+	text-align: center;
+}
+
+.newdataform {
+	max-width: 350px;
+	margin: 20px auto;
+}
+
+.left_span {
+	float: right;
+	display:inline-block;
+	line-height:2rem;
+}
+
+#camp_description {
+	padding: 9px;
+}
+
+.md_col_9 {
+	background-color:white;
+	margin-top:20px;
+	border-radius:5px;
+	padding:0px;
+}
+
+#register {
+	max-width:350px;
+	margin:10px auto;
+}
+
+#delete-form {
+	display:inline;
+}
+#delete-comment {
+	display:inline;
+}
+
+h2 {
+	margin-top:20px;
+	text-align:center;
+}
+
+.flash {
+	margin-top:4.5rem;
+}
+
+.card,.img-fluid {
+	border-radius:0.75rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.navbar {
+	padding:0.25rem 9rem;
+	border-bottom:2px solid rgba(0,0,0,0.1);
+	background: #fab696; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#fbe3b9,
+		#fab696
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#fbe3b9,
+		#fab696
+	);
+}
+
+.jumbotron {
+	background:none;
+}
+
+#name_span {
+	display:inline-block;
+	font-size:1.5rem;
+}
+
+*:focus {
+	outline:none;
+}
